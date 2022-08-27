@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body class="white-bg">
+    <div class="auth-new-layout">
+
+        <div id="react-root">
+            <div class="row" data-testid="login-page">
+                <div class="col-md-4 d-none d-md-block">
+                    <div class="intro-sidebar"><a href="/"><img class="logo-image"
+                                src="https://storage.googleapis.com/lumen5-site-images/L5-logo/logo-white_266x156.png"
+                                alt="Lumen5 Logo"></a>
+                        <div class="header-section">
+                            <h1>Supercharge your content strategy</h1>
+                            <h2>Join 800,000+ brands creating<br>videos with Lumen5</h2>
+                        </div>
+                        <div class="logo-container">
+                            <div class="customer-logo-image"><img class="full-width"
+                                    src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-seimens-white.png"
+                                    alt="Customer logo"></div>
+                            <div class="customer-logo-image"><img class="full-width"
+                                    src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-sf-white.png"
+                                    alt="Customer logo"></div>
+                            <div class="customer-logo-image"><img class="full-width"
+                                    src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-merck-white.png"
+                                    alt="Customer logo"></div>
+                            <div class="customer-logo-image"><img class="full-width"
+                                    src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-sap-white.png"
+                                    alt="Customer logo"></div>
+                            <div class="customer-logo-image"><img class="full-width"
+                                    src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-kpmg-white.png"
+                                    alt="Customer logo"></div>
+                            <div class="customer-logo-image"><img class="full-width"
+                                    src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-cisco-white.png"
+                                    alt="Customer logo"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 col-sm-12">
+                    <div class="details-form">
+                        <div class="form-sidebar vertical-flex">
+                            <div class="flex-spacer">
+                                <div class="auth-base-logo d-block d-md-none"><a href="/"><img
+                                            src="https://storage.googleapis.com/lumen5-site-images/L5-logo/L5-logo-color-default.svg"
+                                            alt="Lumen 5"></a></div>
+                            </div>
+                            <div class="login-form main-content">
+                                <div class="title-container" data-testid="title">
+                                    <h2 class="mb-3 form-title">Welcome back!</h2>
+                                </div>
+                                <form id="login-form" method="post" class="form-sidebar" data-testid="login-form">
+                                    <div class="feedback-wrapper custom-feedback" data-testid="form-feedback"></div>
+                                    <div class="feedback-wrapper custom-feedback" data-testid="form-feedback">
+                                        <div class="form-group has-feedback"><label>WORK EMAIL</label><input
+                                                type="email" class="form-control" id="email" data-testid="email"
+                                                value=""></div>
+                                    </div>
+                                    <div class="feedback-wrapper custom-feedback" data-testid="form-feedback">
+                                        <div class="form-group has-feedback"><label>PASSWORD<span
+                                                    class="pull-right toggle-password" id="password-visibility"><i
+                                                        class="material-icons">visibility</i><span
+                                                        class="sub-label-text">Show</span></span></label><input
+                                                type="password" class="form-control" data-testid="password" value=""><a
+                                                href="/auth/forgot/" class="forgot-password pull-right"
+                                                data-testid="forgot-password-link">Forgot password?</a></div>
+                                    </div><br>
+                                    <div class="form-group"><button type="submit"
+                                            class="btn-block lumen5-button btn btn-rounded btn-primary"
+                                            data-testid="submit-button"><span>Login</span></button></div>
+                                    <div class="content-divider text-muted form-group"><span>OR</span></div>
+                                    <div class="form-group"><a class="btn bg-facebook btn-rounded  btn-block btn-lg"
+                                            data-testid="facebook-login"><i
+                                                class="fa fa-facebook-square position-left"></i> Login with Facebook</a>
+                                    </div>
+                                    <div class="form-group"><a href="/auth/sso-verification/" type="button"
+                                            class="full-width lumen5-button btn btn-rounded btn-primary btn-outline btn-lg"><i
+                                                class="material-icons">key</i>&nbsp;<span>Log in via SSO</span></a>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="signup-link">Need a Lumen5 account? <a href="/auth/signup/" alt="Sign up"
+                                    data-testid="signup-link">Create an account</a></div>
+                            <div class="copyright text-muted" data-testid="copyright">
+                                <p class="text-center">© 2022 Lumen5</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
