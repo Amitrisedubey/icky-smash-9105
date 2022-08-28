@@ -1,0 +1,249 @@
+.white-b {
+    background-color: #fff;
+}
+.auth-new-layou {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    letter-spacing: 0;
+    font-family: "Poppins",sans-serif;
+}
+.row1{
+        display: flex;
+        
+        margin-right: -15px;
+        margin-left: -15px;
+}
+
+
+.colmd4{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.auth-new-layou .intro-sideba {
+    height: 100vh;
+    width: 100%;
+    max-width: 550px;
+    background-image: url(https://storage.googleapis.com/lumen5-site-images/website-assets/login-bg3.png);
+    background-size: cover;
+    padding: 1.3rem 3.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.auth-new-layou .intro-sideba .logo-imag {
+    max-width: 10rem;
+}
+.auth-new-layou .intro-sideba .header-sectio {
+    color: #fff;
+}
+
+h1 {
+    margin: 0 0 30px;
+    line-height: 1.2;
+}
+
+h2 {
+    margin: 0 0 20px;
+}
+
+
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: .5rem;
+    font-weight: 400;
+    line-height: 1.5385;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    letter-spacing: -0.015em;
+}
+
+
+.auth-new-layou .intro-sideba .logo-containe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+.auth-new-layou .intro-sideba .logo-containe .customer-logo-imag {
+    width: 25%;
+    margin-right: 2rem;
+}
+
+.full-widt {
+    width: 100%;
+}
+
+.colcol{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.auth-new-layou .details-for {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+    padding: 0 6rem;
+    overflow-y: auto;
+}
+
+.auth-new-layou .details-for .form-sideba {
+    width: 100%;
+    max-width: 43rem;
+}
+.vertical-fle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.vertical-fle .flex-space {
+    flex: 2;
+}
+.vertical-fle>div {
+    flex: 1;
+}
+
+.vertical-fle .main-conten {
+    flex: 1 1 auto;
+}
+
+.vertical-fle>div {
+    flex: 1;
+}
+.auth-new-layou .details-for .form-sideba .title-containe {
+    margin-bottom: 2.5rem;
+}
+
+.auth-base-log {
+    width: 161px;
+    margin-bottom: 3rem;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.auth-new-layou .details-for .form-sideba .title-containe .form-titl {
+    font-size: 37px;
+    font-weight: 700;
+}
+
+.mb3, .my3 {
+    margin-bottom: 1rem;
+}
+
+.auth-new-layou .details-for .form-sideba {
+    width: 100%;
+    max-width: 43rem;
+}
+
+.form-grou {
+    margin-bottom: 1rem;
+}
+.form-grou {
+    position: relative;
+}
+
+
+.auth-new-layou .details-for .form-sideba .login-for .form-grou label {
+    width: 100%;
+    font-size: 16px;
+}
+
+
+.form-grou .form-contro:last-child {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+.has-feedbac .form-contro, .has-feedbac.input-group .form-contro {
+    padding-right: 32px;
+}
+div {
+    display: block;
+}
+
+
+.form-contro {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 1.7142857143rem + 2px);
+    padding: .8571428571rem .8571428571rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #5d6575;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 1px solid transparent transparent #c8cbd9;
+    border-radius: 0;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form-contro {
+    font-size: 16px;
+}
+input, button, select, optgroup, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.form-grou {
+    margin-bottom: 1rem;
+}
+.form-grou {
+    position: relative;
+}
+
+.auth-new-layou .details-for .form-sideba .login-for .form-grou .toggle-passwor {
+    color: #9faabf;
+}
+.pull-righ {
+    float: right;
+}
+
+
+
+.auth-new-layou .details-for .form-sideba .login-for .form-grou .material-icons:not(.condition-icon) {
+    color: #9faabf;
+    font-size: 21px;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+.material-icons {
+    vertical-align: middle;
+    font-size: 18px;
+}
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.auth-new-layou .details-for .form-sideba .login-for .form-grou .toggle-passwor .sub-label-tex {
+    cursor: pointer;
+}
